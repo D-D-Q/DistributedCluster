@@ -1,0 +1,4 @@
+
+include "Provider_1", "Provider_2"
+
+rootProject.name = 'DistributedCluster'
