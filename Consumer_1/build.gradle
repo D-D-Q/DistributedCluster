@@ -1,0 +1,4 @@
+
+dependencies {
+	compile 'com.alibaba:dubbo:2.5.3'
+}

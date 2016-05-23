@@ -12,13 +12,14 @@ subprojects {
 
     version = '1.0'
 
+/*
     jar {
         manifest.attributes provider: 'my cool company'
     }
-    /*
+  */
+    
     task createJavaProjectDirs{
 		sourceSets*.java.srcDirs*.each { it.mkdirs() }
 		sourceSets*.resources.srcDirs*.each { it.mkdirs()}
 	}
-	*/
 }

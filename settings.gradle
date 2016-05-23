@@ -1,4 +1,9 @@
 
 include "Provider_1", "Provider_2"
+include "Consumer_1"
 
 rootProject.name = 'DistributedCluster'
+
+rootProject.children.each {project ->
+    project.projectDir = new File(settingsDir, "${project.name}")
+}
